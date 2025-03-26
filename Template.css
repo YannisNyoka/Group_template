@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    border: 2px solid black;
+    overflow: hidden;
+    height: auto;
+}
+
+.TheApp{
+    border: 2px solid blue;
+    height: 90vh;
+}
+.Clarity{
+    border: 2px solid red;
+    height: 90vh;
+}
+.Features{
+    border: 2px solid green;
+    height: 120vh;
+}
+.Pricing{
+   border: 2px solid purple;
+   height: 135vh;
+}
+.Footer{
+   border: 2px solid orangered;
+   height:26vh;
+}
