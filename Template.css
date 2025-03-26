@@ -10,13 +10,31 @@ body{
 .header{
     border: 2px solid black;
     overflow: hidden;
-    height: auto;
+    height: 100vh;
 }
 
 .TheApp{
     border: 2px solid blue;
     height: 90vh;
+    display: flex;
 }
+.heading{
+    color: black;
+    font-size: 64px;
+    margin-right: 60vw;
+}
+.subheading{
+    color: rgb(34, 138, 34);
+    margin-top: 300px;
+    margin-right: 200px;
+}
+.attention{
+  
+}
+/*.sidepic{
+    margin-left: 73vw;
+    margin-top: 52px;
+}*/
 .Clarity{
     border: 2px solid red;
     height: 90vh;
