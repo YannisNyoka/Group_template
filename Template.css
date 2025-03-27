@@ -18,6 +18,9 @@ body{
     height: 90vh;
     display: flex;
 }
+.info{
+    width: 10px;
+}
 .heading{
     color: black;
     font-size: 64px;
