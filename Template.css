@@ -10,7 +10,7 @@ body{
 .header{
     border: 2px solid black;
     overflow: hidden;
-    height: auto;
+    height: 100vh;
 }
 
 .TheApp{
