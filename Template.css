@@ -36,17 +36,22 @@ body{
     border: 2px solid red;
     height: 90vh;
     background-color: #f1f1f1;
+    display: flex;
 }
 .clarity-img{
     width: 350px;
     height: 72vh;
-    /* border: 2px solid black; */
-    margin-top: 60px;
-    margin-left: 10px;
-    border-radius: 50%;
+    border: 2px solid black;
+    margin-top: 55px;
+    margin-left: 15px;
 }
 .clarity-image{
     border-radius: 8px;
+}
+.clarity-text{
+    width:800px ;
+    height:72vh ;
+    border: 3px solid yellow;
 }
 .Features{
     border: 2px solid green;
