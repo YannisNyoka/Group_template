@@ -35,12 +35,18 @@ body{
 .Clarity{
     border: 2px solid red;
     height: 90vh;
+    background-color: #f1f1f1;
 }
 .clarity-img{
-    width: 300px;
-    height: 50vh;
-    background-color: #f1f1f1;
-    border: 2px solid black;
+    width: 350px;
+    height: 72vh;
+    /* border: 2px solid black; */
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.clarity-image{
+    border-radius: 8px;
 }
 .Features{
     border: 2px solid green;
