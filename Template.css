@@ -97,25 +97,162 @@ body{
 .heading_2{
     font-size: 70px;
     text-align: center;
+    margin-top: 65px;
 }
 .subheading_2{
     text-align: center;
     font-size: 17px;
 }
+.icons{
+    margin-top: 20px;
+    border: 4px solid red;
+}
 .row_1{
     text-align: center;
-    width: 100%;
-    
+    width: 100%; 
+    display: flex;
+}
+.bolt{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh; 
+}
+#bolt{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: orange;
+}
+#heart{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(192, 31, 31);
+}
+#camera{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: yellow;
+}
+#battery{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: green;
+}
+.heart{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.camera{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.battery{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
 }
 .row_2{
     text-align: center;
     width: 100%;
+    display: flex;
+}
 
+#diamond{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+}
+#cloud{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: #2196F3;
+}
+#globe{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: yellow;
+}
+#hdd{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: #2196F3;
+}
+.diamond{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.cloud{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.globe{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.hdd{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
 }
 .row_3{
     text-align: center;
     width: 100%;
-
+    display: flex;
+}
+#user{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+#shield{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: orange;
+}
+#wifi{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(116, 114, 114);
+}
+#picture{
+    font-size: 75px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(240, 7, 104);
+}
+.user{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.shield{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.wifi{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
+}
+.picture{
+    border: 2px solid white;
+    width: 25%;
+    height: 35vh;
 }
 .Pricing{
    border: 2px solid purple;
