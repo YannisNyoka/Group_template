@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Template.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>App Launch</title>
 </head>
-<body>
-    <h1>Yannis is the best</h1>
+<body class="content black" style="max-width:1500px;">
+    <!--Header with Slideshow-->
+    <header class="display-container center">
+        <!-- <button class="button block green hide-large hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button> -->
+        <div class="mySlides animate-opacity">
+          <img class="-image" src="Template Images/app.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+          <div class="display-left padding hide-small" style="width:35%">
+            <div class="black opacity hover-opacity-off padding-large round-large">
+              <h1 class="xlarge">Take photos with our app</h1>
+              <hr class="opacity">
+              <p>Super simple installment: free of charge</p>
+              <p><button class="button block green round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+            </div>
+          </div>
+        </div>
+        <a class="button black display-right margin-right round hide-small hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+      </header>
+      
+    <!--The App Section-->
+  
+      <div class="TheApp">
+  
+      </div>
+  
+      <div class="Clarity">
+  
+      </div>
+      
+      <div class="Features">
+  
+      </div>
+  
+      <div class="Pricing">
+  
+      </div>
+  
+      <div class="Footer">
+        <footer class="container padding-32 light-grey center xlarge">
+            <div class="section">
+              <i class="fa fa-facebook-official hover-opacity"></i>
+              <i class="fa fa-instagram hover-opacity"></i>
+              <i class="fa fa-snapchat hover-opacity"></i>
+              <i class="fa fa-pinterest-p hover-opacity"></i>
+              <i class="fa fa-twitter hover-opacity"></i>
+              <i class="fa fa-linkedin hover-opacity"></i>
+            </div>
+            <p class="medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-text-green">w3.css</a></p>
+          </footer>
+      </div>
 </body>
 </html>

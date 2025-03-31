@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+.center{
+    text-align: center;
+}
+.display-container{
+    position: relative;
+}
+header{
+    display:block;
+}
+
+.black, .hover-black:hover{
+    color:#fff;
+    background-color:#000;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+body,h1,h2,h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+}
+.green{
+    color:#fff;
+    background-color: #4caf50;
+}
+.hover-black:hover{
+    color:#fff;
+    background-color: #000;
+}
+.block{
+    display: block;
+    width:100%;
+}
+.button{
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    white-space: nowrap;
+    text-transform: none;
+    font:inherit;
+    margin: inherit;
+}
+.fa{
+    display: inline-block; */
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+img{
+    margin-bottom: -8px;
+    vertical-align: middle;
+    border-style: none;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+}
+.padding-large{
+    padding:12px 24px;
+}
+.opacity{
+    opacity:0.60;
+}
+.round-large{
+    border-radius: 8px;
+}
+.xlarge{
+    font-size: 24px;
+}
+h1{
+    font-weight: 400;
+    margin: 10px 0;
+}
+hr{
+    border:0;
+    border-top:1px solid #eee;
+    margin:20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.round{
+    border-radius: 4px;
+}
+.display-left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+.display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+.padding {
+    padding: 8px 16px !important;
+}
+.margin-right {
+    margin-right: 16px !important;
+}
+.round {
+    border-radius: 4px;
+}
+.hover-opacity-off:hover{
+    opacity: initial;
+    cursor:pointer;
+}
+.button:hover{
+    color: #000;
+    background-color:#eee;
+    cursor: pointer;
+}
+.light-grey{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+}
+.padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+}
+.section {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
