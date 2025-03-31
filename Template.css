@@ -68,15 +68,20 @@ body{
     padding-top: 19px;
     padding-left: 21px;
 }
-.android{
+#android{
     color: lightgreen;
-    font-size: 10px;
+    font-size: 25px;
+    margin-left: 2px;
 }
-.apple{
+#apple{
     color: black;
+    font-size: 25px;
+    margin-left: 2px;
 }
-.windows{
+#windows{
     color: lightblue;
+    font-size: 25px;
+    margin-left: 2px;
 }
 .Clarity{
     border: 2px solid red;
@@ -86,11 +91,31 @@ body{
     border: 2px solid green;
     height: 120vh;
     background-color: grey;
-    
+    color: white;
 }
+
 .heading_2{
     font-size: 70px;
     text-align: center;
+}
+.subheading_2{
+    text-align: center;
+    font-size: 17px;
+}
+.row_1{
+    text-align: center;
+    width: 100%;
+    
+}
+.row_2{
+    text-align: center;
+    width: 100%;
+
+}
+.row_3{
+    text-align: center;
+    width: 100%;
+
 }
 .Pricing{
    border: 2px solid purple;
