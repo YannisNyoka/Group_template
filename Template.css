@@ -53,6 +53,7 @@ body{
     padding-left: 21px;
     padding-top: 25px;
     color: lightgrey;
+    border: none;
 }
 .t_ext{
     font-size: 17px;
